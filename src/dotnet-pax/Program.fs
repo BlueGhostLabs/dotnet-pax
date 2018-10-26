@@ -1,7 +1,6 @@
 ﻿open Structure
+open Commands
 
-type Commands = Init | Service
-type SubCommands = New | Update | Delete
 
 [<EntryPoint>]
 let main argv =
